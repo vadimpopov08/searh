@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    padding-top: 50px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.search {
+    background-color: brown;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.search__input {
+    width: 100%;
+    font-size: 30px;
+}
+
+.list {}
+
+.item {
+    padding: 10px 5px;
+}
+
+.item:nth-child(odd) {
+    background-color: rgb(209, 209, 209);
+}
